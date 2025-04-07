@@ -1,5 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
-import baseEnvUrl from './utils/environmentBaseUrl';
+// import baseEnvUrl from './utils/environmentBaseUrl';
 
 /**
  * Read environment variables from file.
@@ -110,26 +110,26 @@ export default defineConfig({
     },
 
     // Example only
-    {
-      name: 'local',
-      use: {
-        baseURL: baseEnvUrl.local.home,
-      },
-    },
-
-    // Example only
-    {
-      name: 'ci',
-      use: {
-        baseURL: process.env.CI
-            ? baseEnvUrl.ci.prefix + process.env.GITHUB_REF_NAME + baseEnvUrl.ci.suffix //https://dev-myapp-chapter-2.mydomain.com
-            : baseEnvUrl.staging.home,
-      },
+    // {
+    //   name: 'local',
+    //   use: {
+    //     baseURL: baseEnvUrl.local.home,
+    //   },
+    // },
+    //
+    // // Example only
+    // {
+    //   name: 'ci',
+    //   use: {
+    //     baseURL: process.env.CI
+    //         ? baseEnvUrl.ci.prefix + process.env.GITHUB_REF_NAME + baseEnvUrl.ci.suffix //https://dev-myapp-chapter-2.mydomain.com
+    //         : baseEnvUrl.staging.home,
+    //   },
       /**
        * GitHub variables: https://docs.github.com/en/actions/learn-github-actions/variables
        * GitLab variables: https://docs.gitlab.com/ee/ci/variables/predefined_variables.html#predefined-variables-reference
        */
-    },
+    // },
 
     /* Test against mobile viewports. */
     // {
