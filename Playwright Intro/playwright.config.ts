@@ -23,10 +23,10 @@ export default defineConfig({
   // 2 = retry in ci 0 = don't retry locally
   retries: 2,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 6 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
-  // reporter: [['html', { open: 'always' }]], //always, never and on-failure (default).
+  // reporter: 'html',
+  reporter: [['html', { open: 'always' }]], //always, never and on-failure (default).
   // reporter: [['html', { outputFolder: 'my-report' }]], // report is written into the playwright-report folder in the current working directory. override it using the PLAYWRIGHT_HTML_REPORT
   // reporter: 'dot',
   // reporter: 'list',
@@ -51,7 +51,7 @@ export default defineConfig({
     // headless: false,
     // ignoreHTTPSErrors: true,
     // viewport: { width: 1280, height: 720 },
-    // video: 'on-first-retry',
+    video: 'on-first-retry',
   },
   // timeout: 30000, //https://playwright.dev/docs/test-timeouts
   // expect: {
@@ -73,6 +73,11 @@ export default defineConfig({
         ...devices['Desktop Chrome'],
         // viewport: { width: 1280, height: 720 },
       },
+    },
+
+    {
+      name: 'edge',
+      use: { ...devices['Desktop Edge'], channel: 'msedge' }, // or "msedge-beta" or 'msedge-dev'
     },
 
     {
@@ -142,14 +147,14 @@ export default defineConfig({
     // },
 
     /* Test against branded browsers. */
-    // {
-    //   name: 'Microsoft Edge',
-    //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
-    // },
-    // {
-    //   name: 'Google Chrome',
-    //   use: { ..devices['Desktop Chrome'], channel: 'chrome' },
-    // },
+     // {
+     //   name: 'Microsoft Edge',
+     //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
+     // },
+     // {
+     //   name: 'Google Chrome',
+     //   use: { ..devices['Desktop Chrome'], channel: 'chrome' },
+     // },
   ],
 
   /* Run your local dev server before starting the tests */
