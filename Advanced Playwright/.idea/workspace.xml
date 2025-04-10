@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="723a1869-1f51-4210-8492-3c3e12c0ad3a" name="Changes" comment="setup files">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/CraigDavies.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced Playwright.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tau-advanced-playwright/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tau-advanced-playwright/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tau-advanced-playwright/playwright.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tau-advanced-playwright/playwright.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tau-advanced-playwright/tests/ui/pages/profile-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tau-advanced-playwright/tests/ui/pages/profile-page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tau-advanced-playwright/tests/ui/specs/profile-stored-authentication.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tau-advanced-playwright/tests/ui/specs/profile-stored-authentication.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tau-advanced-playwright/tests/utils/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tau-advanced-playwright/tests/utils/hooks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests-examples/demo-todo-app.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/example.spec.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/tau-advanced-playwright" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;craigd-lumin&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/csd1981/QA-Projects.git&quot;,
+    &quot;accountId&quot;: &quot;629ac68a-e344-4119-a9e9-f35964aa0f92&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2vPEO1Kpdfrv6L9Xr376FgWvx5t" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/craigdavies/QA-Projects/Advanced Playwright/tau-advanced-playwright&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.test-ui-auth-user.executor&quot;: &quot;Run&quot;,
+    &quot;npm.test-ui-c.executor&quot;: &quot;Run&quot;,
+    &quot;npm.test-ui-h.executor&quot;: &quot;Run&quot;,
+    &quot;npm.test-ui.executor&quot;: &quot;Run&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\craigdavies\\AppData\\Local\\Programs\\Aqua\\plugins\\javascript-base\\jsLanguageServicesImpl\\external&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\craigdavies\QA-Projects\Advanced Playwright\tau-advanced-playwright" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.test-ui-c">
+    <configuration name="test-ui-auth-user" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/tau-advanced-playwright/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test-ui-auth-user" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test-ui-c" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/tau-advanced-playwright/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test-ui-c" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test-ui-h" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/tau-advanced-playwright/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test-ui-h" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test-ui" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/tau-advanced-playwright/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test-ui" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test-ui-c" />
+        <item itemvalue="npm.test-ui-h" />
+        <item itemvalue="npm.test-ui-auth-user" />
+        <item itemvalue="npm.test-ui" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="723a1869-1f51-4210-8492-3c3e12c0ad3a" name="Changes" comment="" />
+      <created>1744038272721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744038272721</updated>
+    </task>
+    <task id="LOCAL-00001" summary="setup files">
+      <option name="closed" value="true" />
+      <created>1744038615823</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744038615823</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="setup files" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup files" />
+  </component>
+</project>
